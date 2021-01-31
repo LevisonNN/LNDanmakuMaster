@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name         = "LNDanmakuMaster"
   s.version      = "0.0.1"
   s.summary      = "A feature-rich danmaku component."
-  s.homepage     = "https://github.com/Levison/LNDanmakuMaster"
+  s.homepage     = "https://github.com/LevisonNN/LNDanmakuMaster"
   s.author             = { "Levison" => "levisoncn@gmail.com" }
   s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/LevisonNN/LNDanmakuMaster.git", :tag => "#{s.version}" }
