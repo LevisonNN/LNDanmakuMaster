@@ -7,4 +7,4 @@ pod 'LNDanmakuMaster'
 ```
 ###Demo中的一些展示效果
 
-[![yVlmjO.md.gif](https://s3.ax1x.com/2021/02/01/yVlmjO.md.gif)](https://imgchr.com/i/yVlmjO)
+[![yVluuD.gif](https://s3.ax1x.com/2021/02/01/yVluuD.gif)](https://imgchr.com/i/yVluuD)
