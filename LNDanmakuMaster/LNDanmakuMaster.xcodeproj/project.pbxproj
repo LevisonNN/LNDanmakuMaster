@@ -1,0 +1,1162 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A54C69C125C6578C008FF281 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C69C025C6578C008FF281 /* AppDelegate.m */; };
+		A54C69CA25C6578C008FF281 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A54C69C825C6578C008FF281 /* Main.storyboard */; };
+		A54C69CC25C6578C008FF281 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A54C69CB25C6578C008FF281 /* Assets.xcassets */; };
+		A54C69CF25C6578C008FF281 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A54C69CD25C6578C008FF281 /* LaunchScreen.storyboard */; };
+		A54C69D225C6578C008FF281 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C69D125C6578C008FF281 /* main.m */; };
+		A54C69DC25C6578C008FF281 /* LNDanmakuMasterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C69DB25C6578C008FF281 /* LNDanmakuMasterTests.m */; };
+		A54C69E725C6578C008FF281 /* LNDanmakuMasterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C69E625C6578C008FF281 /* LNDanmakuMasterUITests.m */; };
+		A54C69FC25C658A6008FF281 /* LNDanmakuClockProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C69FB25C658A6008FF281 /* LNDanmakuClockProxy.m */; };
+		A54C6A0525C658E8008FF281 /* LNDanmakuClock.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C6A0425C658E8008FF281 /* LNDanmakuClock.m */; };
+		A54C6A0C25C659CC008FF281 /* LNDanmakuPool.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C6A0B25C659CC008FF281 /* LNDanmakuPool.m */; };
+		A54C6A1525C659DD008FF281 /* LNDanmakuPurePool.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C6A1425C659DD008FF281 /* LNDanmakuPurePool.m */; };
+		A54C6A1B25C659F0008FF281 /* NSObject+LNDanmakuPool.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C6A1A25C659F0008FF281 /* NSObject+LNDanmakuPool.m */; };
+		A54C6A2425C65E4B008FF281 /* LNDanmakuView.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C6A2325C65E4B008FF281 /* LNDanmakuView.m */; };
+		A54C6A2D25C65E59008FF281 /* LNDanmakuLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C6A2C25C65E59008FF281 /* LNDanmakuLayer.m */; };
+		A54C6A3325C65E64008FF281 /* LNDanmakuTextLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C6A3225C65E64008FF281 /* LNDanmakuTextLayer.m */; };
+		A54C6A3E25C65F79008FF281 /* LNDanmakuAbstractAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C6A3D25C65F79008FF281 /* LNDanmakuAbstractAttributes.m */; };
+		A54C6A4725C65F8A008FF281 /* LNDanmakuAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C6A4625C65F8A008FF281 /* LNDanmakuAttributes.m */; };
+		A54C6A4D25C66039008FF281 /* CALayer+LNDanmakuAttributesHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C6A4C25C66039008FF281 /* CALayer+LNDanmakuAttributesHolder.m */; };
+		A54C6A5325C6604E008FF281 /* LNDanmakuAttributesHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C6A5225C6604E008FF281 /* LNDanmakuAttributesHolder.m */; };
+		A54C6A5925C66069008FF281 /* UIView+LNDanmakuAttributesHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C6A5825C66069008FF281 /* UIView+LNDanmakuAttributesHolder.m */; };
+		A54C6A7225C6673E008FF281 /* LNDanmakuAbstractTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C6A7125C6673E008FF281 /* LNDanmakuAbstractTrack.m */; };
+		A54C6A7825C66809008FF281 /* LNDanmakuAbstractTrackController.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C6A7725C66809008FF281 /* LNDanmakuAbstractTrackController.m */; };
+		A54C6A7E25C668CA008FF281 /* LNDanmakuBaseMoveTrackController.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C6A7D25C668CA008FF281 /* LNDanmakuBaseMoveTrackController.m */; };
+		A54C6A8425C668DB008FF281 /* LNDanmakuBaseStableTrackController.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C6A8325C668DB008FF281 /* LNDanmakuBaseStableTrackController.m */; };
+		A54C6A8A25C668E9008FF281 /* LNDanmakuBaseFreeTrackController.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C6A8925C668E9008FF281 /* LNDanmakuBaseFreeTrackController.m */; };
+		A54C6A9625C66AA7008FF281 /* LNDanmakuHorizontalMoveTrackController.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C6A9525C66AA7008FF281 /* LNDanmakuHorizontalMoveTrackController.m */; };
+		A54C6AA825C66AE5008FF281 /* LNDanmakuHorizontalMoveTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C6AA725C66AE5008FF281 /* LNDanmakuHorizontalMoveTrack.m */; };
+		A54C6AAE25C66BB3008FF281 /* LNDanmakuStableTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C6AAD25C66BB3008FF281 /* LNDanmakuStableTrack.m */; };
+		A54C6AB425C66BC5008FF281 /* LNDanmakuSinTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C6AB325C66BC5008FF281 /* LNDanmakuSinTrack.m */; };
+		A54C6ABA25C66BD1008FF281 /* LNDanmakuPopTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C6AB925C66BD1008FF281 /* LNDanmakuPopTrack.m */; };
+		A54C6AC025C66BDD008FF281 /* LNDanmakuCircleTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C6ABF25C66BDD008FF281 /* LNDanmakuCircleTrack.m */; };
+		A54C6AC625C66BE9008FF281 /* LNDanmakuChristinaTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C6AC525C66BE9008FF281 /* LNDanmakuChristinaTrack.m */; };
+		A54C6ACC25C66C08008FF281 /* LNDanmakuSinTrackController.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C6ACB25C66C08008FF281 /* LNDanmakuSinTrackController.m */; };
+		A54C6AD225C66C7B008FF281 /* LNDanmakuPopTrackController.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C6AD125C66C7B008FF281 /* LNDanmakuPopTrackController.m */; };
+		A54C6AD825C66D63008FF281 /* LNDanmakuCircleTrackController.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C6AD725C66D63008FF281 /* LNDanmakuCircleTrackController.m */; };
+		A54C6ADE25C66DB7008FF281 /* LNDanmakuChristinaTrackController.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C6ADD25C66DB7008FF281 /* LNDanmakuChristinaTrackController.m */; };
+		A54C6AE425C66E04008FF281 /* LNDanmakuStableTrackController.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C6AE325C66E04008FF281 /* LNDanmakuStableTrackController.m */; };
+		A54C6AEB25C66E74008FF281 /* LNDanmakuContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C6AEA25C66E74008FF281 /* LNDanmakuContainerView.m */; };
+		A54C6AF525C66F12008FF281 /* LNDanmakuDispatchQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C6AF425C66F12008FF281 /* LNDanmakuDispatchQueue.m */; };
+		A54C6AFE25C66F20008FF281 /* LNDanmakuAbstractDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C6AFD25C66F20008FF281 /* LNDanmakuAbstractDispatcher.m */; };
+		A54C6B0425C66F39008FF281 /* LNDanmakuDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C6B0325C66F39008FF281 /* LNDanmakuDispatcher.m */; };
+		A54C6B0B25C66FEB008FF281 /* LNDanmakuTrackGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C6B0A25C66FEB008FF281 /* LNDanmakuTrackGroup.m */; };
+		A54C6B1525C67052008FF281 /* LNDanmakuPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C6B1425C67052008FF281 /* LNDanmakuPlayer.m */; };
+		A54C6B2425C6713D008FF281 /* TracksDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C6B2325C6713D008FF281 /* TracksDemoViewController.m */; };
+		A54C6B2D25C67463008FF281 /* DispatcherDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C6B2C25C67463008FF281 /* DispatcherDemoViewController.m */; };
+		A54C6B3325C674A0008FF281 /* GestureDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C6B3225C674A0008FF281 /* GestureDemoViewController.m */; };
+		A54C6B3925C674D9008FF281 /* TrackGroupDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C6B3825C674D9008FF281 /* TrackGroupDemoViewController.m */; };
+		A54C6B3F25C67525008FF281 /* VideoDanmakuDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C6B3E25C67525008FF281 /* VideoDanmakuDemoViewController.m */; };
+		A54C6B4725C67558008FF281 /* VideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C6B4625C67558008FF281 /* VideoPlayer.m */; };
+		A54C6B5025C67595008FF281 /* VideoDanmakuPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C6B4F25C67595008FF281 /* VideoDanmakuPlayer.m */; };
+		A54C6B5A25C675C2008FF281 /* VideoDanmakuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C6B5925C675C2008FF281 /* VideoDanmakuModel.m */; };
+		A54C6B6325C675FC008FF281 /* VideoDanmakuDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C6B6225C675FC008FF281 /* VideoDanmakuDispatcher.m */; };
+		A54C6B6925C67632008FF281 /* VideoDanmakuServer.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C6B6825C67632008FF281 /* VideoDanmakuServer.m */; };
+		A54C6B6F25C67669008FF281 /* VideoDanmakuFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C6B6E25C67669008FF281 /* VideoDanmakuFactory.m */; };
+		A54C6B7525C6767B008FF281 /* VideoDanmakuStyleList.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C6B7425C6767B008FF281 /* VideoDanmakuStyleList.m */; };
+		A54C6B7C25C67763008FF281 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C6B7B25C67763008FF281 /* MainViewController.m */; };
+		A54C6B8525C6779A008FF281 /* DemoItemObj.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C6B8425C6779A008FF281 /* DemoItemObj.m */; };
+		A54C6B8B25C677D0008FF281 /* DemoItemCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A54C6B8A25C677D0008FF281 /* DemoItemCollectionViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A54C69D825C6578C008FF281 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A54C69B425C6578C008FF281 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A54C69BB25C6578C008FF281;
+			remoteInfo = LNDanmakuMaster;
+		};
+		A54C69E325C6578C008FF281 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A54C69B425C6578C008FF281 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A54C69BB25C6578C008FF281;
+			remoteInfo = LNDanmakuMaster;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A54C69BC25C6578C008FF281 /* LNDanmakuMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LNDanmakuMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A54C69BF25C6578C008FF281 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A54C69C025C6578C008FF281 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A54C69C925C6578C008FF281 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A54C69CB25C6578C008FF281 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A54C69CE25C6578C008FF281 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A54C69D025C6578C008FF281 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A54C69D125C6578C008FF281 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A54C69D725C6578C008FF281 /* LNDanmakuMasterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LNDanmakuMasterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A54C69DB25C6578C008FF281 /* LNDanmakuMasterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNDanmakuMasterTests.m; sourceTree = "<group>"; };
+		A54C69DD25C6578C008FF281 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A54C69E225C6578C008FF281 /* LNDanmakuMasterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LNDanmakuMasterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A54C69E625C6578C008FF281 /* LNDanmakuMasterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNDanmakuMasterUITests.m; sourceTree = "<group>"; };
+		A54C69E825C6578C008FF281 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A54C69F825C657BB008FF281 /* LNDanmakuMaster.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNDanmakuMaster.h; sourceTree = "<group>"; };
+		A54C69FA25C658A6008FF281 /* LNDanmakuClockProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNDanmakuClockProxy.h; sourceTree = "<group>"; };
+		A54C69FB25C658A6008FF281 /* LNDanmakuClockProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNDanmakuClockProxy.m; sourceTree = "<group>"; };
+		A54C6A0325C658E8008FF281 /* LNDanmakuClock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNDanmakuClock.h; sourceTree = "<group>"; };
+		A54C6A0425C658E8008FF281 /* LNDanmakuClock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNDanmakuClock.m; sourceTree = "<group>"; };
+		A54C6A0A25C659CC008FF281 /* LNDanmakuPool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNDanmakuPool.h; sourceTree = "<group>"; };
+		A54C6A0B25C659CC008FF281 /* LNDanmakuPool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNDanmakuPool.m; sourceTree = "<group>"; };
+		A54C6A1325C659DD008FF281 /* LNDanmakuPurePool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNDanmakuPurePool.h; sourceTree = "<group>"; };
+		A54C6A1425C659DD008FF281 /* LNDanmakuPurePool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNDanmakuPurePool.m; sourceTree = "<group>"; };
+		A54C6A1925C659F0008FF281 /* NSObject+LNDanmakuPool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+LNDanmakuPool.h"; sourceTree = "<group>"; };
+		A54C6A1A25C659F0008FF281 /* NSObject+LNDanmakuPool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LNDanmakuPool.m"; sourceTree = "<group>"; };
+		A54C6A2225C65E4B008FF281 /* LNDanmakuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNDanmakuView.h; sourceTree = "<group>"; };
+		A54C6A2325C65E4B008FF281 /* LNDanmakuView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNDanmakuView.m; sourceTree = "<group>"; };
+		A54C6A2B25C65E59008FF281 /* LNDanmakuLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNDanmakuLayer.h; sourceTree = "<group>"; };
+		A54C6A2C25C65E59008FF281 /* LNDanmakuLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNDanmakuLayer.m; sourceTree = "<group>"; };
+		A54C6A3125C65E64008FF281 /* LNDanmakuTextLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNDanmakuTextLayer.h; sourceTree = "<group>"; };
+		A54C6A3225C65E64008FF281 /* LNDanmakuTextLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNDanmakuTextLayer.m; sourceTree = "<group>"; };
+		A54C6A3C25C65F79008FF281 /* LNDanmakuAbstractAttributes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNDanmakuAbstractAttributes.h; sourceTree = "<group>"; };
+		A54C6A3D25C65F79008FF281 /* LNDanmakuAbstractAttributes.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNDanmakuAbstractAttributes.m; sourceTree = "<group>"; };
+		A54C6A4525C65F8A008FF281 /* LNDanmakuAttributes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNDanmakuAttributes.h; sourceTree = "<group>"; };
+		A54C6A4625C65F8A008FF281 /* LNDanmakuAttributes.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNDanmakuAttributes.m; sourceTree = "<group>"; };
+		A54C6A4B25C66039008FF281 /* CALayer+LNDanmakuAttributesHolder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CALayer+LNDanmakuAttributesHolder.h"; sourceTree = "<group>"; };
+		A54C6A4C25C66039008FF281 /* CALayer+LNDanmakuAttributesHolder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CALayer+LNDanmakuAttributesHolder.m"; sourceTree = "<group>"; };
+		A54C6A5125C6604E008FF281 /* LNDanmakuAttributesHolder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNDanmakuAttributesHolder.h; sourceTree = "<group>"; };
+		A54C6A5225C6604E008FF281 /* LNDanmakuAttributesHolder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNDanmakuAttributesHolder.m; sourceTree = "<group>"; };
+		A54C6A5725C66069008FF281 /* UIView+LNDanmakuAttributesHolder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+LNDanmakuAttributesHolder.h"; sourceTree = "<group>"; };
+		A54C6A5825C66069008FF281 /* UIView+LNDanmakuAttributesHolder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+LNDanmakuAttributesHolder.m"; sourceTree = "<group>"; };
+		A54C6A7025C6673E008FF281 /* LNDanmakuAbstractTrack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNDanmakuAbstractTrack.h; sourceTree = "<group>"; };
+		A54C6A7125C6673E008FF281 /* LNDanmakuAbstractTrack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNDanmakuAbstractTrack.m; sourceTree = "<group>"; };
+		A54C6A7625C66809008FF281 /* LNDanmakuAbstractTrackController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNDanmakuAbstractTrackController.h; sourceTree = "<group>"; };
+		A54C6A7725C66809008FF281 /* LNDanmakuAbstractTrackController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNDanmakuAbstractTrackController.m; sourceTree = "<group>"; };
+		A54C6A7C25C668C9008FF281 /* LNDanmakuBaseMoveTrackController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNDanmakuBaseMoveTrackController.h; sourceTree = "<group>"; };
+		A54C6A7D25C668CA008FF281 /* LNDanmakuBaseMoveTrackController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNDanmakuBaseMoveTrackController.m; sourceTree = "<group>"; };
+		A54C6A8225C668DB008FF281 /* LNDanmakuBaseStableTrackController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNDanmakuBaseStableTrackController.h; sourceTree = "<group>"; };
+		A54C6A8325C668DB008FF281 /* LNDanmakuBaseStableTrackController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNDanmakuBaseStableTrackController.m; sourceTree = "<group>"; };
+		A54C6A8825C668E9008FF281 /* LNDanmakuBaseFreeTrackController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNDanmakuBaseFreeTrackController.h; sourceTree = "<group>"; };
+		A54C6A8925C668E9008FF281 /* LNDanmakuBaseFreeTrackController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNDanmakuBaseFreeTrackController.m; sourceTree = "<group>"; };
+		A54C6A9425C66AA7008FF281 /* LNDanmakuHorizontalMoveTrackController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNDanmakuHorizontalMoveTrackController.h; sourceTree = "<group>"; };
+		A54C6A9525C66AA7008FF281 /* LNDanmakuHorizontalMoveTrackController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNDanmakuHorizontalMoveTrackController.m; sourceTree = "<group>"; };
+		A54C6AA625C66AE5008FF281 /* LNDanmakuHorizontalMoveTrack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNDanmakuHorizontalMoveTrack.h; sourceTree = "<group>"; };
+		A54C6AA725C66AE5008FF281 /* LNDanmakuHorizontalMoveTrack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNDanmakuHorizontalMoveTrack.m; sourceTree = "<group>"; };
+		A54C6AAC25C66BB3008FF281 /* LNDanmakuStableTrack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNDanmakuStableTrack.h; sourceTree = "<group>"; };
+		A54C6AAD25C66BB3008FF281 /* LNDanmakuStableTrack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNDanmakuStableTrack.m; sourceTree = "<group>"; };
+		A54C6AB225C66BC5008FF281 /* LNDanmakuSinTrack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNDanmakuSinTrack.h; sourceTree = "<group>"; };
+		A54C6AB325C66BC5008FF281 /* LNDanmakuSinTrack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNDanmakuSinTrack.m; sourceTree = "<group>"; };
+		A54C6AB825C66BD1008FF281 /* LNDanmakuPopTrack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNDanmakuPopTrack.h; sourceTree = "<group>"; };
+		A54C6AB925C66BD1008FF281 /* LNDanmakuPopTrack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNDanmakuPopTrack.m; sourceTree = "<group>"; };
+		A54C6ABE25C66BDD008FF281 /* LNDanmakuCircleTrack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNDanmakuCircleTrack.h; sourceTree = "<group>"; };
+		A54C6ABF25C66BDD008FF281 /* LNDanmakuCircleTrack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNDanmakuCircleTrack.m; sourceTree = "<group>"; };
+		A54C6AC425C66BE9008FF281 /* LNDanmakuChristinaTrack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNDanmakuChristinaTrack.h; sourceTree = "<group>"; };
+		A54C6AC525C66BE9008FF281 /* LNDanmakuChristinaTrack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNDanmakuChristinaTrack.m; sourceTree = "<group>"; };
+		A54C6ACA25C66C08008FF281 /* LNDanmakuSinTrackController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNDanmakuSinTrackController.h; sourceTree = "<group>"; };
+		A54C6ACB25C66C08008FF281 /* LNDanmakuSinTrackController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNDanmakuSinTrackController.m; sourceTree = "<group>"; };
+		A54C6AD025C66C7B008FF281 /* LNDanmakuPopTrackController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNDanmakuPopTrackController.h; sourceTree = "<group>"; };
+		A54C6AD125C66C7B008FF281 /* LNDanmakuPopTrackController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNDanmakuPopTrackController.m; sourceTree = "<group>"; };
+		A54C6AD625C66D63008FF281 /* LNDanmakuCircleTrackController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNDanmakuCircleTrackController.h; sourceTree = "<group>"; };
+		A54C6AD725C66D63008FF281 /* LNDanmakuCircleTrackController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNDanmakuCircleTrackController.m; sourceTree = "<group>"; };
+		A54C6ADC25C66DB7008FF281 /* LNDanmakuChristinaTrackController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNDanmakuChristinaTrackController.h; sourceTree = "<group>"; };
+		A54C6ADD25C66DB7008FF281 /* LNDanmakuChristinaTrackController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNDanmakuChristinaTrackController.m; sourceTree = "<group>"; };
+		A54C6AE225C66E04008FF281 /* LNDanmakuStableTrackController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNDanmakuStableTrackController.h; sourceTree = "<group>"; };
+		A54C6AE325C66E04008FF281 /* LNDanmakuStableTrackController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNDanmakuStableTrackController.m; sourceTree = "<group>"; };
+		A54C6AE925C66E74008FF281 /* LNDanmakuContainerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNDanmakuContainerView.h; sourceTree = "<group>"; };
+		A54C6AEA25C66E74008FF281 /* LNDanmakuContainerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNDanmakuContainerView.m; sourceTree = "<group>"; };
+		A54C6AF325C66F12008FF281 /* LNDanmakuDispatchQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNDanmakuDispatchQueue.h; sourceTree = "<group>"; };
+		A54C6AF425C66F12008FF281 /* LNDanmakuDispatchQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNDanmakuDispatchQueue.m; sourceTree = "<group>"; };
+		A54C6AFC25C66F20008FF281 /* LNDanmakuAbstractDispatcher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNDanmakuAbstractDispatcher.h; sourceTree = "<group>"; };
+		A54C6AFD25C66F20008FF281 /* LNDanmakuAbstractDispatcher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNDanmakuAbstractDispatcher.m; sourceTree = "<group>"; };
+		A54C6B0225C66F39008FF281 /* LNDanmakuDispatcher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNDanmakuDispatcher.h; sourceTree = "<group>"; };
+		A54C6B0325C66F39008FF281 /* LNDanmakuDispatcher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNDanmakuDispatcher.m; sourceTree = "<group>"; };
+		A54C6B0925C66FEB008FF281 /* LNDanmakuTrackGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNDanmakuTrackGroup.h; sourceTree = "<group>"; };
+		A54C6B0A25C66FEB008FF281 /* LNDanmakuTrackGroup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNDanmakuTrackGroup.m; sourceTree = "<group>"; };
+		A54C6B1325C67052008FF281 /* LNDanmakuPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNDanmakuPlayer.h; sourceTree = "<group>"; };
+		A54C6B1425C67052008FF281 /* LNDanmakuPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNDanmakuPlayer.m; sourceTree = "<group>"; };
+		A54C6B2225C6713D008FF281 /* TracksDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TracksDemoViewController.h; sourceTree = "<group>"; };
+		A54C6B2325C6713D008FF281 /* TracksDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TracksDemoViewController.m; sourceTree = "<group>"; };
+		A54C6B2B25C67463008FF281 /* DispatcherDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DispatcherDemoViewController.h; sourceTree = "<group>"; };
+		A54C6B2C25C67463008FF281 /* DispatcherDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DispatcherDemoViewController.m; sourceTree = "<group>"; };
+		A54C6B3125C674A0008FF281 /* GestureDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GestureDemoViewController.h; sourceTree = "<group>"; };
+		A54C6B3225C674A0008FF281 /* GestureDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GestureDemoViewController.m; sourceTree = "<group>"; };
+		A54C6B3725C674D9008FF281 /* TrackGroupDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrackGroupDemoViewController.h; sourceTree = "<group>"; };
+		A54C6B3825C674D9008FF281 /* TrackGroupDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrackGroupDemoViewController.m; sourceTree = "<group>"; };
+		A54C6B3D25C67525008FF281 /* VideoDanmakuDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoDanmakuDemoViewController.h; sourceTree = "<group>"; };
+		A54C6B3E25C67525008FF281 /* VideoDanmakuDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoDanmakuDemoViewController.m; sourceTree = "<group>"; };
+		A54C6B4525C67558008FF281 /* VideoPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoPlayer.h; sourceTree = "<group>"; };
+		A54C6B4625C67558008FF281 /* VideoPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoPlayer.m; sourceTree = "<group>"; };
+		A54C6B4E25C67595008FF281 /* VideoDanmakuPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoDanmakuPlayer.h; sourceTree = "<group>"; };
+		A54C6B4F25C67595008FF281 /* VideoDanmakuPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoDanmakuPlayer.m; sourceTree = "<group>"; };
+		A54C6B5825C675C2008FF281 /* VideoDanmakuModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoDanmakuModel.h; sourceTree = "<group>"; };
+		A54C6B5925C675C2008FF281 /* VideoDanmakuModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoDanmakuModel.m; sourceTree = "<group>"; };
+		A54C6B6125C675FC008FF281 /* VideoDanmakuDispatcher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoDanmakuDispatcher.h; sourceTree = "<group>"; };
+		A54C6B6225C675FC008FF281 /* VideoDanmakuDispatcher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoDanmakuDispatcher.m; sourceTree = "<group>"; };
+		A54C6B6725C67632008FF281 /* VideoDanmakuServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoDanmakuServer.h; sourceTree = "<group>"; };
+		A54C6B6825C67632008FF281 /* VideoDanmakuServer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoDanmakuServer.m; sourceTree = "<group>"; };
+		A54C6B6D25C67669008FF281 /* VideoDanmakuFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoDanmakuFactory.h; sourceTree = "<group>"; };
+		A54C6B6E25C67669008FF281 /* VideoDanmakuFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoDanmakuFactory.m; sourceTree = "<group>"; };
+		A54C6B7325C6767B008FF281 /* VideoDanmakuStyleList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoDanmakuStyleList.h; sourceTree = "<group>"; };
+		A54C6B7425C6767B008FF281 /* VideoDanmakuStyleList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoDanmakuStyleList.m; sourceTree = "<group>"; };
+		A54C6B7A25C67763008FF281 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		A54C6B7B25C67763008FF281 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		A54C6B8325C6779A008FF281 /* DemoItemObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoItemObj.h; sourceTree = "<group>"; };
+		A54C6B8425C6779A008FF281 /* DemoItemObj.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoItemObj.m; sourceTree = "<group>"; };
+		A54C6B8925C677D0008FF281 /* DemoItemCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoItemCollectionViewCell.h; sourceTree = "<group>"; };
+		A54C6B8A25C677D0008FF281 /* DemoItemCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoItemCollectionViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A54C69B925C6578C008FF281 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A54C69D425C6578C008FF281 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A54C69DF25C6578C008FF281 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A54C69B325C6578C008FF281 = {
+			isa = PBXGroup;
+			children = (
+				A54C69BE25C6578C008FF281 /* LNDanmakuMaster */,
+				A54C69DA25C6578C008FF281 /* LNDanmakuMasterTests */,
+				A54C69E525C6578C008FF281 /* LNDanmakuMasterUITests */,
+				A54C69BD25C6578C008FF281 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A54C69BD25C6578C008FF281 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A54C69BC25C6578C008FF281 /* LNDanmakuMaster.app */,
+				A54C69D725C6578C008FF281 /* LNDanmakuMasterTests.xctest */,
+				A54C69E225C6578C008FF281 /* LNDanmakuMasterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A54C69BE25C6578C008FF281 /* LNDanmakuMaster */ = {
+			isa = PBXGroup;
+			children = (
+				A54C6B7925C67750008FF281 /* Main */,
+				A54C6B1C25C670ED008FF281 /* Demo */,
+				A54C69F725C657A4008FF281 /* LNDanmakuMaster */,
+				A54C69BF25C6578C008FF281 /* AppDelegate.h */,
+				A54C69C025C6578C008FF281 /* AppDelegate.m */,
+				A54C69C825C6578C008FF281 /* Main.storyboard */,
+				A54C69CB25C6578C008FF281 /* Assets.xcassets */,
+				A54C69CD25C6578C008FF281 /* LaunchScreen.storyboard */,
+				A54C69D025C6578C008FF281 /* Info.plist */,
+				A54C69D125C6578C008FF281 /* main.m */,
+			);
+			path = LNDanmakuMaster;
+			sourceTree = "<group>";
+		};
+		A54C69DA25C6578C008FF281 /* LNDanmakuMasterTests */ = {
+			isa = PBXGroup;
+			children = (
+				A54C69DB25C6578C008FF281 /* LNDanmakuMasterTests.m */,
+				A54C69DD25C6578C008FF281 /* Info.plist */,
+			);
+			path = LNDanmakuMasterTests;
+			sourceTree = "<group>";
+		};
+		A54C69E525C6578C008FF281 /* LNDanmakuMasterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A54C69E625C6578C008FF281 /* LNDanmakuMasterUITests.m */,
+				A54C69E825C6578C008FF281 /* Info.plist */,
+			);
+			path = LNDanmakuMasterUITests;
+			sourceTree = "<group>";
+		};
+		A54C69F725C657A4008FF281 /* LNDanmakuMaster */ = {
+			isa = PBXGroup;
+			children = (
+				A54C6B1225C67044008FF281 /* Player */,
+				A54C6B0825C66FCC008FF281 /* TrackGroup */,
+				A54C6AF225C66EF6008FF281 /* Dispatcher */,
+				A54C6AE825C66E61008FF281 /* ContainerView */,
+				A54C6A6D25C6669E008FF281 /* Track */,
+				A54C6A3725C65F0B008FF281 /* Attributes */,
+				A54C6A1F25C65E25008FF281 /* UIElements */,
+				A54C6A0925C659BC008FF281 /* Pool */,
+				A54C69F925C6588B008FF281 /* Clock */,
+				A54C69F825C657BB008FF281 /* LNDanmakuMaster.h */,
+			);
+			path = LNDanmakuMaster;
+			sourceTree = "<group>";
+		};
+		A54C69F925C6588B008FF281 /* Clock */ = {
+			isa = PBXGroup;
+			children = (
+				A54C69FA25C658A6008FF281 /* LNDanmakuClockProxy.h */,
+				A54C69FB25C658A6008FF281 /* LNDanmakuClockProxy.m */,
+				A54C6A0325C658E8008FF281 /* LNDanmakuClock.h */,
+				A54C6A0425C658E8008FF281 /* LNDanmakuClock.m */,
+			);
+			path = Clock;
+			sourceTree = "<group>";
+		};
+		A54C6A0925C659BC008FF281 /* Pool */ = {
+			isa = PBXGroup;
+			children = (
+				A54C6A0A25C659CC008FF281 /* LNDanmakuPool.h */,
+				A54C6A0B25C659CC008FF281 /* LNDanmakuPool.m */,
+				A54C6A1325C659DD008FF281 /* LNDanmakuPurePool.h */,
+				A54C6A1425C659DD008FF281 /* LNDanmakuPurePool.m */,
+				A54C6A1925C659F0008FF281 /* NSObject+LNDanmakuPool.h */,
+				A54C6A1A25C659F0008FF281 /* NSObject+LNDanmakuPool.m */,
+			);
+			path = Pool;
+			sourceTree = "<group>";
+		};
+		A54C6A1F25C65E25008FF281 /* UIElements */ = {
+			isa = PBXGroup;
+			children = (
+				A54C6A2125C65E36008FF281 /* View */,
+				A54C6A2025C65E30008FF281 /* Layer */,
+			);
+			path = UIElements;
+			sourceTree = "<group>";
+		};
+		A54C6A2025C65E30008FF281 /* Layer */ = {
+			isa = PBXGroup;
+			children = (
+				A54C6A2B25C65E59008FF281 /* LNDanmakuLayer.h */,
+				A54C6A2C25C65E59008FF281 /* LNDanmakuLayer.m */,
+				A54C6A3125C65E64008FF281 /* LNDanmakuTextLayer.h */,
+				A54C6A3225C65E64008FF281 /* LNDanmakuTextLayer.m */,
+			);
+			path = Layer;
+			sourceTree = "<group>";
+		};
+		A54C6A2125C65E36008FF281 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A54C6A2225C65E4B008FF281 /* LNDanmakuView.h */,
+				A54C6A2325C65E4B008FF281 /* LNDanmakuView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A54C6A3725C65F0B008FF281 /* Attributes */ = {
+			isa = PBXGroup;
+			children = (
+				A54C6A3B25C65F62008FF281 /* Category */,
+				A54C6A3C25C65F79008FF281 /* LNDanmakuAbstractAttributes.h */,
+				A54C6A3D25C65F79008FF281 /* LNDanmakuAbstractAttributes.m */,
+				A54C6A4525C65F8A008FF281 /* LNDanmakuAttributes.h */,
+				A54C6A4625C65F8A008FF281 /* LNDanmakuAttributes.m */,
+			);
+			path = Attributes;
+			sourceTree = "<group>";
+		};
+		A54C6A3B25C65F62008FF281 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				A54C6A5125C6604E008FF281 /* LNDanmakuAttributesHolder.h */,
+				A54C6A5225C6604E008FF281 /* LNDanmakuAttributesHolder.m */,
+				A54C6A5725C66069008FF281 /* UIView+LNDanmakuAttributesHolder.h */,
+				A54C6A5825C66069008FF281 /* UIView+LNDanmakuAttributesHolder.m */,
+				A54C6A4B25C66039008FF281 /* CALayer+LNDanmakuAttributesHolder.h */,
+				A54C6A4C25C66039008FF281 /* CALayer+LNDanmakuAttributesHolder.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		A54C6A6D25C6669E008FF281 /* Track */ = {
+			isa = PBXGroup;
+			children = (
+				A54C6A6F25C66712008FF281 /* TrackController */,
+				A54C6A6E25C66704008FF281 /* BaseTrackController */,
+				A54C6A7025C6673E008FF281 /* LNDanmakuAbstractTrack.h */,
+				A54C6A7125C6673E008FF281 /* LNDanmakuAbstractTrack.m */,
+				A54C6A7625C66809008FF281 /* LNDanmakuAbstractTrackController.h */,
+				A54C6A7725C66809008FF281 /* LNDanmakuAbstractTrackController.m */,
+			);
+			path = Track;
+			sourceTree = "<group>";
+		};
+		A54C6A6E25C66704008FF281 /* BaseTrackController */ = {
+			isa = PBXGroup;
+			children = (
+				A54C6A7C25C668C9008FF281 /* LNDanmakuBaseMoveTrackController.h */,
+				A54C6A7D25C668CA008FF281 /* LNDanmakuBaseMoveTrackController.m */,
+				A54C6A8225C668DB008FF281 /* LNDanmakuBaseStableTrackController.h */,
+				A54C6A8325C668DB008FF281 /* LNDanmakuBaseStableTrackController.m */,
+				A54C6A8825C668E9008FF281 /* LNDanmakuBaseFreeTrackController.h */,
+				A54C6A8925C668E9008FF281 /* LNDanmakuBaseFreeTrackController.m */,
+			);
+			path = BaseTrackController;
+			sourceTree = "<group>";
+		};
+		A54C6A6F25C66712008FF281 /* TrackController */ = {
+			isa = PBXGroup;
+			children = (
+				A54C6A9325C66A86008FF281 /* Sin */,
+				A54C6A9225C66A7F008FF281 /* Pop */,
+				A54C6A9125C66A78008FF281 /* Circle */,
+				A54C6A9025C66A71008FF281 /* Christina */,
+				A54C6A8F25C66A6A008FF281 /* Stable */,
+				A54C6A8E25C66A5F008FF281 /* Horizontal */,
+			);
+			path = TrackController;
+			sourceTree = "<group>";
+		};
+		A54C6A8E25C66A5F008FF281 /* Horizontal */ = {
+			isa = PBXGroup;
+			children = (
+				A54C6A9425C66AA7008FF281 /* LNDanmakuHorizontalMoveTrackController.h */,
+				A54C6A9525C66AA7008FF281 /* LNDanmakuHorizontalMoveTrackController.m */,
+				A54C6AA625C66AE5008FF281 /* LNDanmakuHorizontalMoveTrack.h */,
+				A54C6AA725C66AE5008FF281 /* LNDanmakuHorizontalMoveTrack.m */,
+			);
+			path = Horizontal;
+			sourceTree = "<group>";
+		};
+		A54C6A8F25C66A6A008FF281 /* Stable */ = {
+			isa = PBXGroup;
+			children = (
+				A54C6AAC25C66BB3008FF281 /* LNDanmakuStableTrack.h */,
+				A54C6AAD25C66BB3008FF281 /* LNDanmakuStableTrack.m */,
+				A54C6AE225C66E04008FF281 /* LNDanmakuStableTrackController.h */,
+				A54C6AE325C66E04008FF281 /* LNDanmakuStableTrackController.m */,
+			);
+			path = Stable;
+			sourceTree = "<group>";
+		};
+		A54C6A9025C66A71008FF281 /* Christina */ = {
+			isa = PBXGroup;
+			children = (
+				A54C6AC425C66BE9008FF281 /* LNDanmakuChristinaTrack.h */,
+				A54C6AC525C66BE9008FF281 /* LNDanmakuChristinaTrack.m */,
+				A54C6ADC25C66DB7008FF281 /* LNDanmakuChristinaTrackController.h */,
+				A54C6ADD25C66DB7008FF281 /* LNDanmakuChristinaTrackController.m */,
+			);
+			path = Christina;
+			sourceTree = "<group>";
+		};
+		A54C6A9125C66A78008FF281 /* Circle */ = {
+			isa = PBXGroup;
+			children = (
+				A54C6ABE25C66BDD008FF281 /* LNDanmakuCircleTrack.h */,
+				A54C6ABF25C66BDD008FF281 /* LNDanmakuCircleTrack.m */,
+				A54C6AD625C66D63008FF281 /* LNDanmakuCircleTrackController.h */,
+				A54C6AD725C66D63008FF281 /* LNDanmakuCircleTrackController.m */,
+			);
+			path = Circle;
+			sourceTree = "<group>";
+		};
+		A54C6A9225C66A7F008FF281 /* Pop */ = {
+			isa = PBXGroup;
+			children = (
+				A54C6AB825C66BD1008FF281 /* LNDanmakuPopTrack.h */,
+				A54C6AB925C66BD1008FF281 /* LNDanmakuPopTrack.m */,
+				A54C6AD025C66C7B008FF281 /* LNDanmakuPopTrackController.h */,
+				A54C6AD125C66C7B008FF281 /* LNDanmakuPopTrackController.m */,
+			);
+			path = Pop;
+			sourceTree = "<group>";
+		};
+		A54C6A9325C66A86008FF281 /* Sin */ = {
+			isa = PBXGroup;
+			children = (
+				A54C6AB225C66BC5008FF281 /* LNDanmakuSinTrack.h */,
+				A54C6AB325C66BC5008FF281 /* LNDanmakuSinTrack.m */,
+				A54C6ACA25C66C08008FF281 /* LNDanmakuSinTrackController.h */,
+				A54C6ACB25C66C08008FF281 /* LNDanmakuSinTrackController.m */,
+			);
+			path = Sin;
+			sourceTree = "<group>";
+		};
+		A54C6AE825C66E61008FF281 /* ContainerView */ = {
+			isa = PBXGroup;
+			children = (
+				A54C6AE925C66E74008FF281 /* LNDanmakuContainerView.h */,
+				A54C6AEA25C66E74008FF281 /* LNDanmakuContainerView.m */,
+			);
+			path = ContainerView;
+			sourceTree = "<group>";
+		};
+		A54C6AF225C66EF6008FF281 /* Dispatcher */ = {
+			isa = PBXGroup;
+			children = (
+				A54C6AF325C66F12008FF281 /* LNDanmakuDispatchQueue.h */,
+				A54C6AF425C66F12008FF281 /* LNDanmakuDispatchQueue.m */,
+				A54C6AFC25C66F20008FF281 /* LNDanmakuAbstractDispatcher.h */,
+				A54C6AFD25C66F20008FF281 /* LNDanmakuAbstractDispatcher.m */,
+				A54C6B0225C66F39008FF281 /* LNDanmakuDispatcher.h */,
+				A54C6B0325C66F39008FF281 /* LNDanmakuDispatcher.m */,
+			);
+			path = Dispatcher;
+			sourceTree = "<group>";
+		};
+		A54C6B0825C66FCC008FF281 /* TrackGroup */ = {
+			isa = PBXGroup;
+			children = (
+				A54C6B0925C66FEB008FF281 /* LNDanmakuTrackGroup.h */,
+				A54C6B0A25C66FEB008FF281 /* LNDanmakuTrackGroup.m */,
+			);
+			path = TrackGroup;
+			sourceTree = "<group>";
+		};
+		A54C6B1225C67044008FF281 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				A54C6B1325C67052008FF281 /* LNDanmakuPlayer.h */,
+				A54C6B1425C67052008FF281 /* LNDanmakuPlayer.m */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		A54C6B1C25C670ED008FF281 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				A54C6B2125C6711D008FF281 /* VideoDanmakuDemo */,
+				A54C6B2025C67116008FF281 /* TrackGroupDemo */,
+				A54C6B1F25C6710E008FF281 /* GestureDemo */,
+				A54C6B1E25C67106008FF281 /* DispatcherDemo */,
+				A54C6B1D25C670FD008FF281 /* TracksDemo */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		A54C6B1D25C670FD008FF281 /* TracksDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A54C6B2225C6713D008FF281 /* TracksDemoViewController.h */,
+				A54C6B2325C6713D008FF281 /* TracksDemoViewController.m */,
+			);
+			path = TracksDemo;
+			sourceTree = "<group>";
+		};
+		A54C6B1E25C67106008FF281 /* DispatcherDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A54C6B2B25C67463008FF281 /* DispatcherDemoViewController.h */,
+				A54C6B2C25C67463008FF281 /* DispatcherDemoViewController.m */,
+			);
+			path = DispatcherDemo;
+			sourceTree = "<group>";
+		};
+		A54C6B1F25C6710E008FF281 /* GestureDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A54C6B3125C674A0008FF281 /* GestureDemoViewController.h */,
+				A54C6B3225C674A0008FF281 /* GestureDemoViewController.m */,
+			);
+			path = GestureDemo;
+			sourceTree = "<group>";
+		};
+		A54C6B2025C67116008FF281 /* TrackGroupDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A54C6B3725C674D9008FF281 /* TrackGroupDemoViewController.h */,
+				A54C6B3825C674D9008FF281 /* TrackGroupDemoViewController.m */,
+			);
+			path = TrackGroupDemo;
+			sourceTree = "<group>";
+		};
+		A54C6B2125C6711D008FF281 /* VideoDanmakuDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A54C6B4425C67533008FF281 /* VideoDanmakuPlayer */,
+				A54C6B4325C67529008FF281 /* VideoPlayer */,
+				A54C6B3D25C67525008FF281 /* VideoDanmakuDemoViewController.h */,
+				A54C6B3E25C67525008FF281 /* VideoDanmakuDemoViewController.m */,
+			);
+			path = VideoDanmakuDemo;
+			sourceTree = "<group>";
+		};
+		A54C6B4325C67529008FF281 /* VideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				A54C6B4525C67558008FF281 /* VideoPlayer.h */,
+				A54C6B4625C67558008FF281 /* VideoPlayer.m */,
+			);
+			path = VideoPlayer;
+			sourceTree = "<group>";
+		};
+		A54C6B4425C67533008FF281 /* VideoDanmakuPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				A54C6B5725C675AE008FF281 /* DanmakuFactory */,
+				A54C6B5625C675A8008FF281 /* Server */,
+				A54C6B5525C6759E008FF281 /* Dispatcher */,
+				A54C6B5425C67599008FF281 /* Model */,
+				A54C6B4E25C67595008FF281 /* VideoDanmakuPlayer.h */,
+				A54C6B4F25C67595008FF281 /* VideoDanmakuPlayer.m */,
+			);
+			path = VideoDanmakuPlayer;
+			sourceTree = "<group>";
+		};
+		A54C6B5425C67599008FF281 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A54C6B5825C675C2008FF281 /* VideoDanmakuModel.h */,
+				A54C6B5925C675C2008FF281 /* VideoDanmakuModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A54C6B5525C6759E008FF281 /* Dispatcher */ = {
+			isa = PBXGroup;
+			children = (
+				A54C6B6125C675FC008FF281 /* VideoDanmakuDispatcher.h */,
+				A54C6B6225C675FC008FF281 /* VideoDanmakuDispatcher.m */,
+			);
+			path = Dispatcher;
+			sourceTree = "<group>";
+		};
+		A54C6B5625C675A8008FF281 /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				A54C6B6725C67632008FF281 /* VideoDanmakuServer.h */,
+				A54C6B6825C67632008FF281 /* VideoDanmakuServer.m */,
+			);
+			path = Server;
+			sourceTree = "<group>";
+		};
+		A54C6B5725C675AE008FF281 /* DanmakuFactory */ = {
+			isa = PBXGroup;
+			children = (
+				A54C6B6D25C67669008FF281 /* VideoDanmakuFactory.h */,
+				A54C6B6E25C67669008FF281 /* VideoDanmakuFactory.m */,
+				A54C6B7325C6767B008FF281 /* VideoDanmakuStyleList.h */,
+				A54C6B7425C6767B008FF281 /* VideoDanmakuStyleList.m */,
+			);
+			path = DanmakuFactory;
+			sourceTree = "<group>";
+		};
+		A54C6B7925C67750008FF281 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A54C6B7A25C67763008FF281 /* MainViewController.h */,
+				A54C6B7B25C67763008FF281 /* MainViewController.m */,
+				A54C6B8325C6779A008FF281 /* DemoItemObj.h */,
+				A54C6B8425C6779A008FF281 /* DemoItemObj.m */,
+				A54C6B8925C677D0008FF281 /* DemoItemCollectionViewCell.h */,
+				A54C6B8A25C677D0008FF281 /* DemoItemCollectionViewCell.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A54C69BB25C6578C008FF281 /* LNDanmakuMaster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A54C69EB25C6578C008FF281 /* Build configuration list for PBXNativeTarget "LNDanmakuMaster" */;
+			buildPhases = (
+				A54C69B825C6578C008FF281 /* Sources */,
+				A54C69B925C6578C008FF281 /* Frameworks */,
+				A54C69BA25C6578C008FF281 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LNDanmakuMaster;
+			productName = LNDanmakuMaster;
+			productReference = A54C69BC25C6578C008FF281 /* LNDanmakuMaster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A54C69D625C6578C008FF281 /* LNDanmakuMasterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A54C69EE25C6578C008FF281 /* Build configuration list for PBXNativeTarget "LNDanmakuMasterTests" */;
+			buildPhases = (
+				A54C69D325C6578C008FF281 /* Sources */,
+				A54C69D425C6578C008FF281 /* Frameworks */,
+				A54C69D525C6578C008FF281 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A54C69D925C6578C008FF281 /* PBXTargetDependency */,
+			);
+			name = LNDanmakuMasterTests;
+			productName = LNDanmakuMasterTests;
+			productReference = A54C69D725C6578C008FF281 /* LNDanmakuMasterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A54C69E125C6578C008FF281 /* LNDanmakuMasterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A54C69F125C6578C008FF281 /* Build configuration list for PBXNativeTarget "LNDanmakuMasterUITests" */;
+			buildPhases = (
+				A54C69DE25C6578C008FF281 /* Sources */,
+				A54C69DF25C6578C008FF281 /* Frameworks */,
+				A54C69E025C6578C008FF281 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A54C69E425C6578C008FF281 /* PBXTargetDependency */,
+			);
+			name = LNDanmakuMasterUITests;
+			productName = LNDanmakuMasterUITests;
+			productReference = A54C69E225C6578C008FF281 /* LNDanmakuMasterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A54C69B425C6578C008FF281 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				ORGANIZATIONNAME = Levison;
+				TargetAttributes = {
+					A54C69BB25C6578C008FF281 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					A54C69D625C6578C008FF281 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = A54C69BB25C6578C008FF281;
+					};
+					A54C69E125C6578C008FF281 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = A54C69BB25C6578C008FF281;
+					};
+				};
+			};
+			buildConfigurationList = A54C69B725C6578C008FF281 /* Build configuration list for PBXProject "LNDanmakuMaster" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A54C69B325C6578C008FF281;
+			productRefGroup = A54C69BD25C6578C008FF281 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A54C69BB25C6578C008FF281 /* LNDanmakuMaster */,
+				A54C69D625C6578C008FF281 /* LNDanmakuMasterTests */,
+				A54C69E125C6578C008FF281 /* LNDanmakuMasterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A54C69BA25C6578C008FF281 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A54C69CF25C6578C008FF281 /* LaunchScreen.storyboard in Resources */,
+				A54C69CC25C6578C008FF281 /* Assets.xcassets in Resources */,
+				A54C69CA25C6578C008FF281 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A54C69D525C6578C008FF281 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A54C69E025C6578C008FF281 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A54C69B825C6578C008FF281 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A54C6A2D25C65E59008FF281 /* LNDanmakuLayer.m in Sources */,
+				A54C6AD825C66D63008FF281 /* LNDanmakuCircleTrackController.m in Sources */,
+				A54C6B5025C67595008FF281 /* VideoDanmakuPlayer.m in Sources */,
+				A54C6AA825C66AE5008FF281 /* LNDanmakuHorizontalMoveTrack.m in Sources */,
+				A54C69FC25C658A6008FF281 /* LNDanmakuClockProxy.m in Sources */,
+				A54C6AC625C66BE9008FF281 /* LNDanmakuChristinaTrack.m in Sources */,
+				A54C6AFE25C66F20008FF281 /* LNDanmakuAbstractDispatcher.m in Sources */,
+				A54C6AB425C66BC5008FF281 /* LNDanmakuSinTrack.m in Sources */,
+				A54C6B4725C67558008FF281 /* VideoPlayer.m in Sources */,
+				A54C6B3325C674A0008FF281 /* GestureDemoViewController.m in Sources */,
+				A54C6A0525C658E8008FF281 /* LNDanmakuClock.m in Sources */,
+				A54C6AD225C66C7B008FF281 /* LNDanmakuPopTrackController.m in Sources */,
+				A54C6B0B25C66FEB008FF281 /* LNDanmakuTrackGroup.m in Sources */,
+				A54C6B6F25C67669008FF281 /* VideoDanmakuFactory.m in Sources */,
+				A54C6A5925C66069008FF281 /* UIView+LNDanmakuAttributesHolder.m in Sources */,
+				A54C6AEB25C66E74008FF281 /* LNDanmakuContainerView.m in Sources */,
+				A54C6ACC25C66C08008FF281 /* LNDanmakuSinTrackController.m in Sources */,
+				A54C6A7225C6673E008FF281 /* LNDanmakuAbstractTrack.m in Sources */,
+				A54C6A3E25C65F79008FF281 /* LNDanmakuAbstractAttributes.m in Sources */,
+				A54C6ABA25C66BD1008FF281 /* LNDanmakuPopTrack.m in Sources */,
+				A54C6AE425C66E04008FF281 /* LNDanmakuStableTrackController.m in Sources */,
+				A54C6A3325C65E64008FF281 /* LNDanmakuTextLayer.m in Sources */,
+				A54C6B6925C67632008FF281 /* VideoDanmakuServer.m in Sources */,
+				A54C6A8A25C668E9008FF281 /* LNDanmakuBaseFreeTrackController.m in Sources */,
+				A54C6A7825C66809008FF281 /* LNDanmakuAbstractTrackController.m in Sources */,
+				A54C6B2425C6713D008FF281 /* TracksDemoViewController.m in Sources */,
+				A54C6AF525C66F12008FF281 /* LNDanmakuDispatchQueue.m in Sources */,
+				A54C6A5325C6604E008FF281 /* LNDanmakuAttributesHolder.m in Sources */,
+				A54C6AAE25C66BB3008FF281 /* LNDanmakuStableTrack.m in Sources */,
+				A54C6A9625C66AA7008FF281 /* LNDanmakuHorizontalMoveTrackController.m in Sources */,
+				A54C6B8525C6779A008FF281 /* DemoItemObj.m in Sources */,
+				A54C6B6325C675FC008FF281 /* VideoDanmakuDispatcher.m in Sources */,
+				A54C6B8B25C677D0008FF281 /* DemoItemCollectionViewCell.m in Sources */,
+				A54C6A4D25C66039008FF281 /* CALayer+LNDanmakuAttributesHolder.m in Sources */,
+				A54C6A4725C65F8A008FF281 /* LNDanmakuAttributes.m in Sources */,
+				A54C6B0425C66F39008FF281 /* LNDanmakuDispatcher.m in Sources */,
+				A54C6ADE25C66DB7008FF281 /* LNDanmakuChristinaTrackController.m in Sources */,
+				A54C6B3F25C67525008FF281 /* VideoDanmakuDemoViewController.m in Sources */,
+				A54C6A1B25C659F0008FF281 /* NSObject+LNDanmakuPool.m in Sources */,
+				A54C6AC025C66BDD008FF281 /* LNDanmakuCircleTrack.m in Sources */,
+				A54C69C125C6578C008FF281 /* AppDelegate.m in Sources */,
+				A54C69D225C6578C008FF281 /* main.m in Sources */,
+				A54C6B3925C674D9008FF281 /* TrackGroupDemoViewController.m in Sources */,
+				A54C6B5A25C675C2008FF281 /* VideoDanmakuModel.m in Sources */,
+				A54C6B7525C6767B008FF281 /* VideoDanmakuStyleList.m in Sources */,
+				A54C6B2D25C67463008FF281 /* DispatcherDemoViewController.m in Sources */,
+				A54C6A0C25C659CC008FF281 /* LNDanmakuPool.m in Sources */,
+				A54C6B7C25C67763008FF281 /* MainViewController.m in Sources */,
+				A54C6A8425C668DB008FF281 /* LNDanmakuBaseStableTrackController.m in Sources */,
+				A54C6B1525C67052008FF281 /* LNDanmakuPlayer.m in Sources */,
+				A54C6A2425C65E4B008FF281 /* LNDanmakuView.m in Sources */,
+				A54C6A1525C659DD008FF281 /* LNDanmakuPurePool.m in Sources */,
+				A54C6A7E25C668CA008FF281 /* LNDanmakuBaseMoveTrackController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A54C69D325C6578C008FF281 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A54C69DC25C6578C008FF281 /* LNDanmakuMasterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A54C69DE25C6578C008FF281 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A54C69E725C6578C008FF281 /* LNDanmakuMasterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A54C69D925C6578C008FF281 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A54C69BB25C6578C008FF281 /* LNDanmakuMaster */;
+			targetProxy = A54C69D825C6578C008FF281 /* PBXContainerItemProxy */;
+		};
+		A54C69E425C6578C008FF281 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A54C69BB25C6578C008FF281 /* LNDanmakuMaster */;
+			targetProxy = A54C69E325C6578C008FF281 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A54C69C825C6578C008FF281 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A54C69C925C6578C008FF281 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A54C69CD25C6578C008FF281 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A54C69CE25C6578C008FF281 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A54C69E925C6578C008FF281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A54C69EA25C6578C008FF281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A54C69EC25C6578C008FF281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NZ8VB65G3E;
+				INFOPLIST_FILE = LNDanmakuMaster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Levison.LNDanmakuMaster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A54C69ED25C6578C008FF281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NZ8VB65G3E;
+				INFOPLIST_FILE = LNDanmakuMaster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Levison.LNDanmakuMaster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A54C69EF25C6578C008FF281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NZ8VB65G3E;
+				INFOPLIST_FILE = LNDanmakuMasterTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Levison.LNDanmakuMasterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LNDanmakuMaster.app/LNDanmakuMaster";
+			};
+			name = Debug;
+		};
+		A54C69F025C6578C008FF281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NZ8VB65G3E;
+				INFOPLIST_FILE = LNDanmakuMasterTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Levison.LNDanmakuMasterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LNDanmakuMaster.app/LNDanmakuMaster";
+			};
+			name = Release;
+		};
+		A54C69F225C6578C008FF281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NZ8VB65G3E;
+				INFOPLIST_FILE = LNDanmakuMasterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Levison.LNDanmakuMasterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LNDanmakuMaster;
+			};
+			name = Debug;
+		};
+		A54C69F325C6578C008FF281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NZ8VB65G3E;
+				INFOPLIST_FILE = LNDanmakuMasterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Levison.LNDanmakuMasterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LNDanmakuMaster;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A54C69B725C6578C008FF281 /* Build configuration list for PBXProject "LNDanmakuMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A54C69E925C6578C008FF281 /* Debug */,
+				A54C69EA25C6578C008FF281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A54C69EB25C6578C008FF281 /* Build configuration list for PBXNativeTarget "LNDanmakuMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A54C69EC25C6578C008FF281 /* Debug */,
+				A54C69ED25C6578C008FF281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A54C69EE25C6578C008FF281 /* Build configuration list for PBXNativeTarget "LNDanmakuMasterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A54C69EF25C6578C008FF281 /* Debug */,
+				A54C69F025C6578C008FF281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A54C69F125C6578C008FF281 /* Build configuration list for PBXNativeTarget "LNDanmakuMasterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A54C69F225C6578C008FF281 /* Debug */,
+				A54C69F325C6578C008FF281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A54C69B425C6578C008FF281 /* Project object */;
+}
