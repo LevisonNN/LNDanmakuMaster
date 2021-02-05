@@ -1,7 +1,7 @@
 # LNDanmakuMaster
 
 #### LNDanmakuMaster是一个轻量的弹幕播放器，通过：创建播放器->创建轨道->添加弹幕的方式进行弹幕播放，提供丰富轨道样式的同时也支持自定义轨道；对传入的弹幕的视图层没有要求(任意的View/Layer)；提供多种（目前是3）弹幕分布策略；支持使用轨道组播放特殊弹幕；提供与分布策略的对应的弹幕seek策略。
-#### Github链接:[LNDanmakuMaster](https://github.com/LevisonNN/LNDanmakuMaster)
+### 简书链接:[LNDanmakuMaster](https://www.jianshu.com/p/4a5448dd4a60)
 
 * 你可以直接下载这个链接并运行上面丰富的Demo，或参考Demo代码实现自己的弹幕播放器，也可以直接使用Cocoapods👇
 
