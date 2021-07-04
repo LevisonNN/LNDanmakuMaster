@@ -25,6 +25,10 @@ pod 'LNDanmakuMaster'
 
 [5.弹幕容器和手势：LNDanmakuContainerView](https://www.jianshu.com/p/f23708dc2df2)
 
+[6.处理条件弹幕：LNDanmakuTrackGroup](https://www.jianshu.com/p/9bd0498d7393)
+
+[7.封装组件：LNDanmakuPlayer](https://www.jianshu.com/p/c9ce18a64e14)
+
 ### 弹幕机制
 
 1. 驱动机制
