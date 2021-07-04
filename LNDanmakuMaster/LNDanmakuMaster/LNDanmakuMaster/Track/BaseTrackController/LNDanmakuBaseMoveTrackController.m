@@ -110,7 +110,7 @@
 {
     if (self.lastAttributes) {
         if (self.candidateAttributes) {
-            return MAX(self.candidateAttributes.trackTime, self.lastAttributes.totalAliveTime - self.lastAttributes.currentAliveTime) + self.candidateAttributes.danmakuTime;
+            return MAX(self.candidateAttributes.trackTime, self.lastAttributes.totalAliveTime - self.lastAttributes.currentAliveTime + self.spaceTimeInterval) + self.candidateAttributes.danmakuTime;
         }
         return self.lastAttributes.totalAliveTime - self.lastAttributes.currentAliveTime;
     } else {
